@@ -13,5 +13,5 @@
 
     //GLOBAIS
     define('IMAGES', SITE_NAME.'/public/assets/img/');
-    define('STYLESHEET', SITE_NAME.'/public/style');
+    define('STYLESHEET', SITE_NAME.'/public/style/');
     define('JS_FILE', SITE_NAME.'/public/assets/js/');
