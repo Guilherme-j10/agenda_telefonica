@@ -1,0 +1,51 @@
+[
+    {
+        "nome": "Jos\u00e9 ",
+        "sobrenome": "Guilherme",
+        "cor": "#329ea8",
+        "numero_telefone": "11468576459",
+        "dublle_latter": "JG"
+    },
+    {
+        "nome": "Maria",
+        "sobrenome": "Samara",
+        "cor": "#32a852",
+        "numero_telefone": "116498579528",
+        "dublle_latter": "MS"
+    },
+    {
+        "nome": "Alison",
+        "sobrenome": "Santos",
+        "cor": "#9832a8",
+        "numero_telefone": "11698564983",
+        "dublle_latter": "AS"
+    },
+    {
+        "nome": "Giovanna",
+        "sobrenome": "Mendes",
+        "cor": "#55a832",
+        "numero_telefone": "11987653498",
+        "dublle_latter": "GM"
+    },
+    {
+        "nome": "Odair",
+        "sobrenome": "Melo",
+        "cor": "#87a832",
+        "numero_telefone": "11956834689",
+        "dublle_latter": "OM"
+    },
+    {
+        "nome": "Bruno",
+        "sobrenome": "Gomes",
+        "cor": "#329ea8",
+        "numero_telefone": "11986548395",
+        "dublle_latter": "BG"
+    },
+    {
+        "nome": "Glauco",
+        "sobrenome": "Lugheri",
+        "cor": "#329ea8",
+        "numero_telefone": "11492638657",
+        "dublle_latter": "GL"
+    }
+]

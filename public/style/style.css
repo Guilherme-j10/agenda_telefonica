@@ -12,17 +12,74 @@
   * body img {
     max-width: 100%; }
 
-.login_screen {
+.screen_middle {
   width: 100%;
+  padding: 5%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  flex-direction: column;
   min-height: 100vh;
   background-color: #ebebeb; }
-  .login_screen .login_inbox {
-    padding: 24px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0px 0px 15px 1px #00000059; }
+  .screen_middle .header_aplication {
+    margin-bottom: 20px; }
+    .screen_middle .header_aplication h1 {
+      color: #333; }
+  .screen_middle .container_inputs {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .screen_middle .container_inputs .inputs {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 20px; }
+      .screen_middle .container_inputs .inputs input[type=text] {
+        width: 100%;
+        padding: 12px;
+        border-bottom: solid 1px #ccc;
+        background-color: transparent; }
+    .screen_middle .container_inputs input[type=submit] {
+      background-color: #2577c4;
+      color: #fff;
+      padding: 12px 48px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 5px; }
+  .screen_middle .list_container {
+    width: 60%;
+    margin-top: 40px; }
+    .screen_middle .list_container a {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 20px;
+      border-bottom: solid 1px #ccc;
+      transition: all linear .2s; }
+      .screen_middle .list_container a span {
+        color: #fff;
+        background-color: #333;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px; }
+      .screen_middle .list_container a .info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column; }
+        .screen_middle .list_container a .info h1 {
+          color: #555;
+          font-size: 1.3em; }
+        .screen_middle .list_container a .info p {
+          color: #888; }
+      .screen_middle .list_container a:hover {
+        background-color: #ccc; }
 
 /*# sourceMappingURL=style.css.map */
